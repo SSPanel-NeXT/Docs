@@ -103,6 +103,7 @@ Read these before upgrading a live site.
 ### Protocols
 
 - **AnyTLS** support, including its own subscription format.
+- **NaïveProxy** support: a node type, a `naive` outbound in the sing-box profile, and its own `/naive` subscription format.
 - The default sing-box profile follows the 1.13 schema.
 - Multiple subscription hostnames via `sub_urls`.
 
