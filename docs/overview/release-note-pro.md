@@ -104,6 +104,7 @@ Read these before upgrading a live site.
 
 - **AnyTLS** support, including its own subscription format.
 - **NaïveProxy** support: a node type, a `naive` outbound in the sing-box profile, and its own `/naive` subscription format.
+- **Snell** support: a node type drawn as a `snell` outbound for sing-box and a `snell` proxy for Clash, with the version, pre-shared key, obfuscation and connection reuse read from the node's custom config. It replaces WireGuard as node type 3, which nothing had ever implemented.
 - **Hysteria2** support: a node type carried by both universal profiles — a `hysteria2` outbound for sing-box and a `hysteria2` proxy for Clash — with obfuscation and bandwidth read from the node's custom config.
 - The default sing-box profile follows the 1.13 schema.
 - Multiple subscription hostnames via `sub_urls`.
